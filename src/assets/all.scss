@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "./dashboard.scss";
+@import "./home.scss";
+@import "./productList.scss";
+@import "./item.scss";
+@import "./cart.scss";

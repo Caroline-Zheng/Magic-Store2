@@ -1,0 +1,72 @@
+.bg-item-image{
+    background-image:url(https://upload.cc/i1/2020/06/29/PxL8mi.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 380px;
+    opacity: 0.6;
+}
+.introduce{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.pic-con{
+    background-size: cover;
+    background-position: center center;
+}
+.item-list{
+    list-style:none;
+    li{
+        margin-bottom: 15px;
+        font-size: 25px;
+        border-bottom: dashed 1px black;
+        padding-bottom: 10px;
+        span{
+            margin-right: 80px;
+            font-size: 20px;
+            color: gray;
+            font-weight: bolder;
+            margin-left: -10px;
+        }
+        b{
+            color: gray;
+            font-size: 20px;
+            margin-right: 50px;
+         }
+    }
+}
+.pay{
+    margin-top: 60px;
+    span{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+    
+    del{
+        padding-right: 15px;
+        text-decoration: line-through;
+        font-size: 15px;
+        padding-top: 6px;
+    }
+    div{
+        color: cornflowerblue;
+        font-size: 20px;
+    }
+}
+.item-select{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.cart .btn{
+    height: 100%;
+    width: 100%;
+}
+.guess-like{
+    font-size:30px;
+    border-top: solid 0.5px #D0D0D0;
+    padding-top: 30px;
+}

@@ -1,0 +1,94 @@
+.all-html{
+    font-family: 微軟正黑體;
+}
+
+.marquee{
+    background: #333;
+    color: #fff;
+    padding: 2px 5%;
+    display: flex;
+}   
+span{
+      display: inline-block;
+      padding: 0px 10px;
+      font-size: 12px;
+      border-radius: 3px;
+      white-space: nowrap;
+}
+
+
+.bg-image{
+    background-image:url(https://upload.cc/i1/2020/06/17/TOafHo.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 430px;
+}
+.bg-lighter{
+    background-color: rgba(255,255,255,.55);
+}
+.magic-store{
+    font-weight: bolder;
+}
+.nav-bg{
+    background-color:#FFA042;
+}
+.nav-link{
+    color: #642100;
+    font-weight: bolder;
+}
+.cart-color{
+    color: #642100;
+    font-weight: bolder;
+    text-decoration: none;
+}
+@media (min-width: 768px){
+    .text-md-dark-home{
+        
+        .news{
+            color:#642100;
+        }
+        .news-date{
+            color: #2894FF;
+            font-size: 20px;
+        }
+        .news-text{
+            font-size: 20px;
+            font-weight: bolder;
+            color:black;
+        }
+    }
+}
+.cart-color:hover{
+    text-decoration: none;
+}
+
+
+
+.news-img{
+    height: 300px;
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+.hot-sell{
+    padding: 60px 0 40px 0;
+    background-image: url('https://upload.cc/i1/2020/07/01/ypwgad.jpg');
+    background-size: cover;
+    background-position: center center;
+    h3{
+      text-align: center;
+      color: #642100;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+}
+.text-short{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+footer{
+    background-color: #FF8040;
+    
+}

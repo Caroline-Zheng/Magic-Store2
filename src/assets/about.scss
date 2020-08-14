@@ -1,0 +1,86 @@
+.jumbotron-padding{
+    margin-top: 80px;
+}
+.our-img{
+    background-image: url(https://upload.cc/i1/2020/07/07/4tBHKY.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 768px){
+    .text-md-dark{
+        .h1{
+            font-weight: bolder;
+            color: 	#842B00;
+            font-size: 30px;
+            text-shadow: 0.1em 0.1em #FFD306;
+        }
+        p{
+            font-size: 20px;
+            color: #4D0000;
+        }
+    }
+}
+.about-items{
+    .h4{
+        font-weight: bolder;
+        color: 	#842B00;
+        text-shadow: 0.05em 0.05em #FFD306;
+    }
+    .h5{
+        font-weight: bolder;
+    }
+    p{
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+    
+@-webkit-keyframes fade-in {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fade-type {
+    animation: fade-in;
+    animation-duration: 1.5s;
+    -webkit-animation:fade-in 1.5s;
+}
+.partner{
+    img{
+        border-radius: 50% 50% 50% 50%;
+        height: 120px;
+        width: 120px;
+        margin: auto;
+    }
+    .h5{
+        color: gray;
+        margin-top: -5px;
+    }
+    p{
+        color: gray;
+    }
+}
+.map-item{
+    .h1{
+        font-weight: bolder;
+        color: 	#842B00;
+        font-size: 40px;
+        text-shadow: 0.05em 0.05em #FFD306;
+    }
+    li{
+        list-style-type: none;
+        font-size: 20px;
+        margin-left: -40px;
+        padding-bottom: 20px;
+        i{
+            color:#A23400;
+        }
+    }
+}
